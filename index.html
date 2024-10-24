@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Perfumes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Catálogo de Perfumes</h1>
+        <form id="perfumeForm">
+            <input type="text" id="perfumeName" placeholder="Nombre del Perfume" required>
+            <input type="file" id="perfumeImage" accept="image/*" required>
+            <button type="submit">Añadir Perfume</button>
+        </form>
+        <div id="perfumeList" class="perfume-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
